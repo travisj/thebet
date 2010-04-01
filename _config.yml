@@ -11,6 +11,5 @@ exclude:
     - config.rb
 
 
-url:            http://travisj.github.com
-name:           travisj@github
-tagline:        a site about something (maybe)
+url:            http://travisj.github.com/thebet
+name:           the bet
