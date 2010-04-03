@@ -1,0 +1,67 @@
+{
+	"tor": {
+		"owner": "johnson",
+		"choice": "l"
+	},
+	"cle": {
+		"owner": "johnson",
+		"choice": "l"
+	},
+	"bos": {
+		"owner": "johnson",
+		"choice": "w"
+	},
+	"tam": {
+		"owner": "johnson",
+		"choice": "w"
+	},
+	"pit": {
+		"owner": "johnson",
+		"choice": "l"
+	},
+	"cin": {
+		"owner": "johnson",
+		"choice": "l"
+	},
+	"stl": {
+		"owner": "johnson",
+		"choice": "w"
+	},
+	"atl": {
+		"owner": "johnson",
+		"choice": "w"
+	},
+
+	"bal": {
+		"owner": "smith",
+		"choice": "l"
+	},
+	"kan": {
+		"owner": "smith",
+		"choice": "l"
+	},
+	"nyy": {
+		"owner": "smith",
+		"choice": "w"
+	},
+	"laa": {
+		"owner": "smith",
+		"choice": "w"
+	},
+	"sdg": {
+		"owner": "smith",
+		"choice": "l"
+	},
+	"was": {
+		"owner": "smith",
+		"choice": "l"
+	},
+	"phi": {
+		"owner": "smith",
+		"choice": "w"
+	},
+	"lad": {
+		"owner": "smith",
+		"choice": "w"
+	}
+}
