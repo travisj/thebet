@@ -1,7 +1,21 @@
 ---
 layout: post
-johnson: 690
-smith: 746
+johnson: 0
+smith: 0
+tor: 0
+cle: 0
+bos: 0
+tam: 0
+pit: 0
+cin: 0
+stl: 0
+atl: 0
+bal: 0
+kan: 0
+nyy: 0
+laa: 0
+sdg: 0
+was: 0
+phi: 0
+lad: 0
 ---
-
-aoeuoeau
