@@ -1,5 +1,5 @@
 destination:    ./_site
-paginate:       1
+paginate:       7
 permalink:      /:year/:month/:day/:title.html
 auto:           true
 lsi:            false
