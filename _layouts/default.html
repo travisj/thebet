@@ -5,11 +5,27 @@
 <head>
 	<title>{{ site.name }} {% if page.title %} &raquo; {{ page.title }} {% endif %}</title>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<style type="text/css">
+		#main {
+			width: 600px;
+			margin: 0 auto;
+			}
+		#header {
+			text-align: center;
+			}
+		#header img, #header a img {
+			border: 0;
+			}
+	</style>
 </head>
 <body>
-<a href="/"><img src="{{ site.url }}/images/bettingbaseball.jpg" /></a>
-<h1>The Bet</h1>
+<div id="main">
+	<div id="header">
+		<a href="/"><img src="{{ site.url }}/images/bettingbaseball.jpg" /></a>
+	</div>
+<hr />
 {{ content }}
+</div>
 <script type="text/javascript">
 //<![CDATA[
 (function() {
