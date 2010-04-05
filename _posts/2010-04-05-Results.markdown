@@ -1,10 +1,10 @@
 ---
 layout: post
-johnson: 1
+johnson: 0
 smith: 0
 tor: 0
 cle: 0
-bos: 1
+bos: 0
 tam: 0
 pit: 0
 cin: 0
