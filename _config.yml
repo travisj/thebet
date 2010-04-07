@@ -11,5 +11,5 @@ exclude:
     - config.rb
 
 
-url:            http://thebet.gunnerweb.net/
+url:            http://localhost:4000/
 name:           the bet
