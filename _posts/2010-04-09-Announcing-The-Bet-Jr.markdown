@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: textpost
 title: Announcing The Bet, Jr.
 ---
 
