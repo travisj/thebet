@@ -6,7 +6,7 @@
 		<li>Boston Red Sox: {{ post.bos }}</li>
 		<li>Tampa Bay Rays: {{ post.tam }}</li>
 		<li>St. Louis Cardinals: {{ post.stl }}</li>
-		<li>Atlanta Braves: {{ post.stl }}</li>
+		<li>Atlanta Braves: {{ post.atl }}</li>
 	</ul>
 </p>
 <p>Losers:
