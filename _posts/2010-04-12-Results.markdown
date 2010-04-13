@@ -1,8 +1,8 @@
 ---
 layout: post
-johnson: 27
+johnson: 28
 smith: 32
-tor: 1
+tor: 2
 cle: 5
 bos: 3
 tam: 4
