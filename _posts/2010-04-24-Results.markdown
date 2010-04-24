@@ -1,9 +1,9 @@
 ---
 layout: post
-johnson: 71
+johnson: 72
 smith: 75
 tor: 7
-cle: 8
+cle: 9
 bos: 7
 tam: 12
 pit: 9
