@@ -1,7 +1,7 @@
 ---
 layout: post
 johnson: 72
-smith: 75
+smith: 76
 tor: 7
 cle: 9
 bos: 7
@@ -13,7 +13,7 @@ atl: 8
 bal: 15
 kan: 10
 nyy: 11
-laa: 8
+laa: 9
 sdg: 6
 was: 8
 phi: 10
