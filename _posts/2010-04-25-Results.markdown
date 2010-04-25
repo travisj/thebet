@@ -1,12 +1,12 @@
 ---
 layout: post
-johnson: 79
+johnson: 80
 smith: 83
 tor: 9
 cle: 9
 bos: 8
 tam: 14
-pit: 10
+pit: 11
 cin: 11
 stl: 10
 atl: 8
