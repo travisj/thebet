@@ -1,21 +1,21 @@
 ---
 layout: post
-johnson: 107
-smith: 103
+johnson: 109
+smith: 105
 tor: 13
-cle: 13
+cle: 14
 bos: 11
 tam: 18
 pit: 14
 cin: 12
 stl: 16
-atl: 10
+atl: 11
 bal: 18
 kan: 15
-nyy: 15
+nyy: 16
 laa: 12
 sdg: 9
-was: 11
+was: 12
 phi: 13
 lad: 10
 ---
