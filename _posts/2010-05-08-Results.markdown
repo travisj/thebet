@@ -1,7 +1,7 @@
 ---
 layout: post
 johnson: 131
-smith: 129
+smith: 130
 tor: 13
 cle: 18
 bos: 15
@@ -12,7 +12,7 @@ stl: 19
 atl: 13
 bal: 21
 kan: 19
-nyy: 20
+nyy: 21
 laa: 13
 sdg: 11
 was: 14
