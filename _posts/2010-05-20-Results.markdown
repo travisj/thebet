@@ -1,0 +1,21 @@
+---
+layout: post
+johnson: 172
+smith: 179
+tor: 17
+cle: 23
+bos: 21
+tam: 29
+pit: 22
+cin: 17
+stl: 23
+atl: 20
+bal: 28
+kan: 25
+nyy: 25
+laa: 19
+sdg: 16
+was: 20
+phi: 24
+lad: 22
+---
