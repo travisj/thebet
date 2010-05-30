@@ -1,15 +1,15 @@
 ---
 layout: post
-johnson: 215
+johnson: 217
 smith: 216
 tor: 22
 cle: 29
 bos: 28
 tam: 33
-pit: 29
+pit: 30
 cin: 20
 stl: 28
-atl: 26
+atl: 27
 bal: 35
 kan: 29
 nyy: 29
