@@ -1,6 +1,6 @@
 ---
 layout: post
-johnson: 232
+johnson: 233
 smith: 232
 tor: 23
 cle: 31
@@ -9,7 +9,7 @@ tam: 35
 pit: 31
 cin: 22
 stl: 30
-atl: 30
+atl: 31
 bal: 37
 kan: 31
 nyy: 32
