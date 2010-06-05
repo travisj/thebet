@@ -16,13 +16,15 @@ while (!feof($handle)) {
   $contents .= fread($handle, 8192);
 }
 fclose($handle);
-preg_match_all('/<a href="\/mlb\/clubhouse\?team=(.*?)">(.*?)<\/a><\/td><td>(.*?)<\/td><td>(.*?)<\/td>/is', $contents, $matches);
+//preg_match_all('/<a href="\/mlb\/clubhouse\?team=(.*?)">(.*?)<\/a><\/td><td>(.*?)<\/td><td>(.*?)<\/td>/is', $contents, $matches);
+preg_match_all('/<a href="\/mlb\/team\/_\/name\/(.*?)\/(.*?)">(.*?)<\/a><\/td><td>(.*?)<\/td><td>(.*?)<\/td>/is', $contents, $matches);
 foreach($matches[0] as $i=>$match) {
 	$code = $matches[1][$i];
 	$results[$code] = array(
 		"name" => $teams[$code],
-		"w" => $matches[3][$i], 
-		"l" => $matches[4][$i]
+		"code" => $code,
+		"w" => $matches[4][$i], 
+		"l" => $matches[5][$i]
 	);
 }
 
