@@ -1,20 +1,20 @@
 ---
 layout: post
-johnson: 283
-smith: 286
-tor: 30
+johnson: 281
+smith: 284
+tor: 29
 cle: 37
 bos: 37
 tb: 40
 pit: 40
 cin: 28
 stl: 34
-atl: 37
+atl: 36
 bal: 46
 kc: 37
 nyy: 40
-laa: 36
-sd: 26
+laa: 35
+sd: 25
 wsh: 33
 phi: 32
 lad: 36
