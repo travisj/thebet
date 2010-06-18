@@ -1,0 +1,21 @@
+---
+layout: post
+johnson: 296
+smith: 299
+tor: 31
+cle: 39
+bos: 39
+tb: 41
+pit: 42
+cin: 30
+stl: 36
+atl: 38
+bal: 48
+kc: 38
+nyy: 41
+laa: 37
+sd: 28
+wsh: 36
+phi: 33
+lad: 38
+---
