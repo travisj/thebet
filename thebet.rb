@@ -109,7 +109,7 @@ class TheBet
 			u = bitly.shorten(get_config('base_url') + '/' + DateTime::now.strftime('%Y/%m/%d') + '/Results.html')
 			puts u
 			base.update(msg + ' ' + u.short_url)
-		rescue e
+		rescue Exception => e
 			# do nothing
 			puts e
 		end
