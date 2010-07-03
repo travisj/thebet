@@ -105,7 +105,7 @@ class TheBet
 			base = Twitter::Base.new(httpauth)
 
 			Bitly.use_api_version_3
-			bitly = Bitly.new(get_config('bitly_user'), get_config('bitly_pass'))
+			bitly = Bitly.new(get_config('bitly_user'), get_config('bitly_key'))
 			u = bitly.shorten(get_config('base_url') + '/' + DateTime::now.strftime('%Y/%m/%d') + '/Results.html')
 			puts u
 			base.update(msg + ' ' + u.short_url)

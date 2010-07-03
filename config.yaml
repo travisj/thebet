@@ -1,9 +1,13 @@
 thebetjr:
+  base_url: 'http://thebetjr.gunnerweb.net'
   twitter_user: 'thebet'
   twitter_pass: 'y4nk33s'
-  base_url: 'http://thebetjr.gunnerweb.net'
+  bitly_user: 'travisj'
+  bitly_key: 'R_138872d89843533954dbbda751e38862'
 
 thebet:
+  base_url: 'http://thebet.gunnerweb.net'
   twitter_user: 'thebet'
   twitter_pass: 'y4nk33s'
-  base_url: 'http://thebet.gunnerweb.net'
+  bitly_user: 'travisj'
+  bitly_key: 'R_138872d89843533954dbbda751e38862'
