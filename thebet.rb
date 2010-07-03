@@ -107,7 +107,7 @@ class TheBet
 			Bitly.use_api_version_3
 			bitly = Bitly.new(get_config('bitly_user'), get_config('bitly_pass'))
 			u = bitly.shorten(get_config('base_url') + '/' + DateTime::now.strftime('%Y/%m/%d') + '/Results.html')
-			puts u.short_url
+			puts u
 			base.update(msg + ' ' + u.short_url)
 		rescue
 			# do nothing
