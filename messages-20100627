@@ -1,0 +1,3 @@
+Jun 20 04:02:02 wilco kernel: imklog 3.21.9, log source = /proc/kmsg started.
+Jun 20 04:02:02 wilco rsyslogd: [origin software="rsyslogd" swVersion="3.21.9" x-pid="3406" x-info="http://www.rsyslog.com"] restart
+Jun 27 04:02:01 wilco kernel: Kernel logging (proc) stopped.

@@ -1,0 +1,9 @@
+[Sun Jun 20 04:02:02 2010] [notice] Digest: generating secret for digest authentication ...
+[Sun Jun 20 04:02:02 2010] [notice] Digest: done
+[Sun Jun 20 04:02:02 2010] [notice] Apache/2.2.11 (Unix) DAV/2 PHP/5.2.6 SVN/1.5.4 configured -- resuming normal operations
+[Sun Jun 20 23:34:39 2010] [error] [client 123.172.6.214] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Jun 22 04:52:49 2010] [error] [client 196.40.18.26] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Jun 22 23:51:16 2010] [error] [client 123.172.6.214] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sun Jun 27 04:02:01 2010] [notice] SIGHUP received.  Attempting to restart
+httpd: apr_sockaddr_info_get() failed for wilco
+httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName

@@ -1,0 +1,188 @@
+[    0.000000] Linux version 2.6.24-23-xen (buildd@crested) (gcc version 4.2.3 (Ubuntu 4.2.3-2ubuntu7)) #1 SMP Mon Jan 26 03:09:12 UTC 2009 (Ubuntu 2.6.24-4.6-generic)
+[    0.000000] Command line: root=/dev/sda1 ro xencons=tty console=tty1 clocksource=jiffies
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000]  Xen: 0000000000000000 - 0000000010800000 (usable)
+[    0.000000] Entering add_active_range(0, 0, 67584) 0 entries of 256 used
+[    0.000000] end_pfn_map = 67584
+[20933583.566219] Entering add_active_range(0, 0, 67584) 0 entries of 256 used
+[20933583.567159] Zone PFN ranges:
+[20933583.567161]   DMA             0 ->     4096
+[20933583.567163]   DMA32        4096 ->  1048576
+[20933583.567165]   Normal    1048576 ->  1048576
+[20933583.567166] Movable zone start PFN for each node
+[20933583.567167] early_node_map[1] active PFN ranges
+[20933583.567169]     0:        0 ->    67584
+[20933583.567172] On node 0 totalpages: 67584
+[20933583.568332]   DMA zone: 56 pages used for memmap
+[20933583.568334]   DMA zone: 0 pages reserved
+[20933583.568336]   DMA zone: 4040 pages, LIFO batch:0
+[20933583.568741]   DMA32 zone: 868 pages used for memmap
+[20933583.568743]   DMA32 zone: 62620 pages, LIFO batch:15
+[20933583.575157]   Normal zone: 0 pages used for memmap
+[20933583.575165]   Movable zone: 0 pages used for memmap
+[20933583.575204] No mptable found.
+[20933583.575678] PERCPU: Allocating 22368 bytes of per cpu data
+[20933583.575710] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 66660
+[20933583.575714] Kernel command line: root=/dev/sda1 ro xencons=tty console=tty1 clocksource=jiffies
+[20933583.576415] Initializing CPU#0
+[20933583.576682] PID hash table entries: 2048 (order: 11, 16384 bytes)
+[20933583.576732] Xen reported: 1995.001 MHz processor.
+[    0.026929] console [tty1] enabled
+[    0.026974] Console: colour dummy device 80x25
+[    0.026978] console [tty1] enabled
+[    0.027237] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.027461] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)
+[    0.027535] Software IO TLB disabled
+[    0.029154] Memory: 174564k/270336k available (2533k kernel code, 87240k reserved, 1331k data, 220k init)
+[    0.093332] Calibrating delay using timer specific routine.. 4009.56 BogoMIPS (lpj=8019124)
+[    0.093434] Security Framework initialized
+[    0.093445] SELinux:  Disabled at boot.
+[    0.093456] AppArmor: AppArmor initialized
+[    0.093462] Failure registering capabilities with primary security module.
+[    0.093486] Mount-cache hash table entries: 256
+[    0.093723] CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+[    0.093740] CPU: L2 Cache: 512K (64 bytes/line)
+[    0.093747] CPU: Physical Processor ID: 1
+[    0.093750] CPU: Processor Core ID: 1
+[    0.093770] SMP alternatives: switching to UP code
+[    0.094541] Early unpacking initramfs... done
+[    0.175134] Brought up 1 CPUs
+[    0.175161] CPU0 attaching NULL sched-domain.
+[    0.175886] net_namespace: 120 bytes
+[    0.175895] failed to set up cpufreq notifier
+[    0.193619] Time: 165:165:165  Date: 165/165/65
+[    0.193671] NET: Registered protocol family 16
+[    0.195331] CPU0 attaching NULL sched-domain.
+[    0.206106] SMP alternatives: switching to SMP code
+[    0.000011] Initializing CPU#1
+[    0.206770] CPU0 attaching sched-domain:
+[    0.206777]  domain 0: span 03
+[    0.206779]   groups: 01 02
+[    0.206782] CPU1 attaching sched-domain:
+[    0.206783]  domain 0: span 03
+[    0.206784]   groups:<6>CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+[    0.206789]  02 01
+[    0.000061] CPU: L2 Cache: 512K (64 bytes/line)
+[    0.000069] CPU: Physical Processor ID: 1
+[    0.000072] CPU: Processor Core ID: 1
+[    0.207141] CPU0 attaching NULL sched-domain.
+[    0.207144] CPU1 attaching NULL sched-domain.
+[    0.000018] Initializing CPU#2
+[    0.217838] CPU0 attaching sched-domain:
+[    0.217843]  domain 0: span 07
+[    0.217845]   groups: 01 02 04
+[    0.217847] CPU1 attaching sched-domain:
+[    0.217849]  domain 0: span 07
+[    0.217850]   groups: 02 04 01
+[    0.217853] CPU2 attaching sched-domain:
+[    0.217855]  domain 0: span 07
+[    0.217857]   groups: 04 01 02
+[    0.000077] CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+[    0.000083] CPU: L2 Cache: 512K (64 bytes/line)
+[    0.000089] CPU: Physical Processor ID: 1
+[    0.000092] CPU: Processor Core ID: 1
+[    0.218081] CPU0 attaching NULL sched-domain.
+[    0.218084] CPU1 attaching NULL sched-domain.
+[    0.218086] CPU2 attaching NULL sched-domain.
+[    0.229499] CPU0 attaching sched-domain:
+[    0.000015] Initializing CPU#3
+[    0.229518]  domain 0: span 0f
+[    0.229520]   groups: 01 02 04 08
+[    0.229524] CPU1 attaching sched-domain:
+[    0.229525]  domain 0: span 0f
+[    0.229526]   groups: 02 04 08 01
+[    0.229529] CPU2 attaching sched-domain:
+[    0.000045] CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+[    0.000048] CPU: L2 Cache: 512K (64 bytes/line)
+[    0.000052] CPU: Physical Processor ID: 1
+[    0.000054] CPU: Processor Core ID: 1
+[    0.229547]  domain 0: span 0f
+[    0.229548]   groups: 04 08 01 02
+[    0.229551] CPU3 attaching sched-domain:
+[    0.229552]  domain 0: span 0f
+[    0.229553]   groups: 08 01 02 04
+[    0.229607] Brought up 4 CPUs
+[    0.229959] PCI: Fatal: No config space access function found
+[    0.229968] PCI: setting up Xen PCI frontend stub
+[    0.230779] ACPI: Interpreter disabled.
+[    0.230787] Linux Plug and Play Support v0.97 (c) Adam Belay
+[    0.230821] pnp: PnP ACPI: disabled
+[    0.231135] xen_mem: Initialising balloon driver.
+[    0.235055] Setting mem allocation to 262144 kiB
+[    0.235358] PCI: System does not support PCI
+[    0.235372] PCI: System does not support PCI
+[    0.241057] NET: Registered protocol family 8
+[    0.241082] NET: Registered protocol family 20
+[    0.241258] AppArmor: AppArmor Filesystem Enabled
+[    0.241755] NET: Registered protocol family 2
+[    0.276381] IP route cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.276640] TCP established hash table entries: 16384 (order: 6, 262144 bytes)
+[    0.276757] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+[    0.276874] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.276881] TCP reno registered
+[    0.288131] checking if image is initramfs... it is
+[    0.379743] Freeing initrd memory: 76412k freed
+[    0.191795] audit: initializing netlink socket (disabled)
+[    0.191827] audit(1278164259.901:1): initialized
+[    0.192288] VFS: Disk quotas dquot_6.5.1
+[    0.192337] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.192457] io scheduler noop registered
+[    0.192464] io scheduler anticipatory registered
+[    0.192468] io scheduler deadline registered
+[    0.192508] io scheduler cfq registered (default)
+[    0.196664] Xen virtual console successfully installed as tty1
+[    0.196740] Event-channel device installed.
+[    0.202753] Successfully initialized TPM backend driver.
+[    0.225079] netfront: Initialising virtual ethernet driver.
+[    0.455181] xen-vbd: registered block device major 8
+[    0.455214] blkfront: sda1: barriers enabled
+[    0.458141] blkfront: sda2: barriers enabled
+[    0.269034] rtc: IRQ 8 is not free.
+[    0.269151] Linux agpgart interface v0.102
+[    0.270054] RAMDISK driver initialized: 16 RAM disks of 65536K size 1024 blocksize
+[    0.270142] input: Macintosh mouse button emulation as /devices/virtual/input/input0
+[    0.270313] PNP: No PS/2 controller found. Probing ports directly.
+[    0.271150] i8042.c: No controller found.
+[    0.277824] mice: PS/2 mouse device common for all mice
+[    0.277901] cpuidle: using governor ladder
+[    0.278053] NET: Registered protocol family 1
+[    0.278134] registered taskstats version 1
+[    0.278153] XENBUS: Device with no driver: device/console/0
+[    0.278174]   Magic number: 1:252:3141
+[    0.278340] /build/buildd/linux-2.6.24/debian/build/custom-source-xen/drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    0.278360] Freeing unused kernel memory: 220k freed
+[    1.114034] Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing enabled
+[    1.369588] loop: module loaded
+[    1.435217] fuse init (API version 7.9)
+[    1.534821] thermal: Unknown symbol acpi_processor_set_thermal_limit
+[    1.566977] device-mapper: uevent: version 1.0.3
+[    1.567058] device-mapper: ioctl: 4.12.0-ioctl (2007-10-02) initialised: dm-devel@redhat.com
+[    1.615709] md: linear personality registered for level -1
+[    1.619842] md: multipath personality registered for level -4
+[    1.632107] md: raid0 personality registered for level 0
+[    1.644852] md: raid1 personality registered for level 1
+[    1.656895] xor: automatically using best checksumming function: generic_sse
+[    1.675299]    generic_sse:  6186.000 MB/sec
+[    1.675307] xor: using function: generic_sse (6186.000 MB/sec)
+[    1.676172] async_tx: api initialized (async)
+[    1.743238] raid6: int64x1   2116 MB/s
+[    1.811204] raid6: int64x2   2609 MB/s
+[    1.877860] raid6: int64x4   2541 MB/s
+[    1.944196] raid6: int64x8   1971 MB/s
+[    2.010583] raid6: sse2x1    2944 MB/s
+[    2.076390] raid6: sse2x2    4656 MB/s
+[    2.142294] raid6: sse2x4    5621 MB/s
+[    2.142312] raid6: using algorithm sse2x4 (5621 MB/s)
+[    2.142340] md: raid6 personality registered for level 6
+[    2.142357] md: raid5 personality registered for level 5
+[    2.142362] md: raid4 personality registered for level 4
+[    2.195172] md: raid10 personality registered for level 10
+[   12.564524] kjournald starting.  Commit interval 5 seconds
+[   12.564556] EXT3-fs: mounted filesystem with ordered data mode.
+[   13.719060] usbcore: registered new interface driver usbfs
+[   13.719094] usbcore: registered new interface driver hub
+[   13.719117] usbcore: registered new device driver usb
+[   15.032138] udevd version 127 started
+[   15.383232] evbug.c: Connected device: "Macintosh mouse button emulation", <NULL>
+[   17.686370] EXT3 FS on sda1, internal journal
+[   18.616784] Adding 524280k swap on /dev/sda2.  Priority:-1 extents:1 across:524280k

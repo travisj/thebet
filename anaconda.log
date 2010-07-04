@@ -1,0 +1,360 @@
+11:10:18 INFO    : kernel command line: initrd=initrd.img text BOOT_IMAGE=vmlinuz 
+
+11:10:18 INFO    : text mode forced from cmdline
+11:10:18 DEBUG   : no ifcfg files found in /etc/sysconfig/network-scripts
+11:10:18 INFO    : anaconda version 11.4.1.62 on x86_64 starting
+11:10:18 INFO    : 379268 kB are available
+11:10:18 DEBUG   : probing buses
+11:10:18 DEBUG   : waiting for hardware to initialize
+11:10:19 INFO    : trying to mount CD device /dev/sr0 on /mnt/stage2
+11:10:19 INFO    : drive status is CDS_DISC_OK
+11:10:20 INFO    : mounted loopback device /mnt/runtime on /dev/loop0 as /mnt/stage2/images/install.img
+11:10:20 INFO    : Looking for updates in /mnt/stage2/images/updates.img
+11:10:20 INFO    : Looking for product in /mnt/stage2/images/product.img
+11:10:20 INFO    : Detected stage 2 image on CD (url: cdrom:///dev/sr0:/mnt/stage2)
+11:10:23 INFO    : stage2 url is cdrom:///dev/sr0:/mnt/stage2
+11:10:24 INFO    : Loading SELinux policy
+11:10:25 INFO    : getting ready to spawn shell now
+11:10:26 INFO    : Running anaconda script /usr/bin/anaconda
+11:10:33 INFO    : using only installclass _Fedora
+11:10:33 INFO    : anaconda called with cmdline = ['/usr/bin/anaconda', '--stage2', 'cdrom:///dev/sr0:/mnt/stage2', '-T', '--selinux']
+11:10:33 INFO    : Display mode = t
+11:10:33 INFO    : ISCSID is /usr/sbin/iscsid
+11:10:33 INFO    : ISCSIADM is /usr/sbin/iscsiadm
+11:10:33 DEBUG   : queryFirmware: ISCSIADM is /usr/sbin/iscsiadm
+11:10:33 INFO    : ISCSID is /usr/sbin/iscsid
+11:10:33 INFO    : ISCSIADM is /usr/sbin/iscsiadm
+11:10:33 DEBUG   : queryFirmware: ISCSIADM is /usr/sbin/iscsiadm
+11:10:33 INFO    : Detected 384M of memory
+11:10:33 INFO    : Swap attempt of 384M to 768M
+11:10:33 WARNING : step installtype does not exist
+11:10:33 WARNING : step confirminstall does not exist
+11:10:33 WARNING : step complete does not exist
+11:10:33 INFO    : moving (1) to step welcome
+11:10:44 INFO    : moving (1) to step language
+11:10:45 INFO    : moving (1) to step keyboard
+11:10:46 INFO    : moving (1) to step findrootparts
+11:10:46 DEBUG   : starting mpaths
+11:10:47 DEBUG   : self.driveList(): ['sda']
+11:10:47 DEBUG   : DiskSet.skippedDisks: []
+11:10:47 DEBUG   : DiskSet.skippedDisks: []
+11:10:47 DEBUG   : starting all mpaths on drives ['sda']
+11:10:47 DEBUG   : scanning for multipath on drives ['sda']
+11:10:47 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:10:47 DEBUG   : mpaths: []
+11:10:47 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:10:47 DEBUG   : starting dmraids
+11:10:47 DEBUG   : self.driveList(): ['sda']
+11:10:47 DEBUG   : DiskSet.skippedDisks: []
+11:10:47 DEBUG   : DiskSet.skippedDisks: []
+11:10:47 DEBUG   : starting all dmraids on drives ['sda']
+11:10:47 DEBUG   : scanning for dmraid on drives ['sda']
+11:10:47 DEBUG   : done starting dmraids.  Drivelist: ['sda']
+11:10:48 INFO    : Reinitializing label for drive sda
+11:10:48 DEBUG   : adding drive sda to disk list
+11:10:48 DEBUG   : starting mpaths
+11:10:48 DEBUG   : self.driveList(): ['sda']
+11:10:48 DEBUG   : DiskSet.skippedDisks: []
+11:10:48 DEBUG   : DiskSet.skippedDisks: []
+11:10:48 DEBUG   : starting all mpaths on drives ['sda']
+11:10:48 DEBUG   : scanning for multipath on drives ['sda']
+11:10:48 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:10:48 DEBUG   : mpaths: []
+11:10:48 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:10:48 DEBUG   : starting mpaths
+11:10:48 DEBUG   : self.driveList(): ['sda']
+11:10:48 DEBUG   : DiskSet.skippedDisks: []
+11:10:48 DEBUG   : DiskSet.skippedDisks: []
+11:10:48 DEBUG   : starting all mpaths on drives ['sda']
+11:10:48 DEBUG   : scanning for multipath on drives ['sda']
+11:10:48 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:10:48 DEBUG   : mpaths: []
+11:10:48 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:10:49 WARNING : step complete does not exist
+11:10:49 INFO    : moving (1) to step network
+11:10:50 INFO    : moving (1) to step timezone
+11:10:52 INFO    : moving (1) to step accounts
+11:10:58 INFO    : moving (1) to step partitionobjinit
+11:10:58 INFO    : no /tmp/fcpconfig; not configuring zfcp
+11:10:58 DEBUG   : starting mpaths
+11:10:58 DEBUG   : self.driveList(): ['sda']
+11:10:58 DEBUG   : DiskSet.skippedDisks: []
+11:10:58 DEBUG   : DiskSet.skippedDisks: []
+11:10:58 DEBUG   : starting all mpaths on drives ['sda']
+11:10:58 DEBUG   : scanning for multipath on drives ['sda']
+11:10:58 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:10:58 DEBUG   : mpaths: []
+11:10:58 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:10:58 DEBUG   : adding drive sda to disk list
+11:10:58 DEBUG   : starting mpaths
+11:10:58 DEBUG   : self.driveList(): ['sda']
+11:10:58 DEBUG   : DiskSet.skippedDisks: []
+11:10:58 DEBUG   : DiskSet.skippedDisks: []
+11:10:58 DEBUG   : starting all mpaths on drives ['sda']
+11:10:58 DEBUG   : scanning for multipath on drives ['sda']
+11:10:58 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:10:58 DEBUG   : mpaths: []
+11:10:58 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:10:59 INFO    : moving (1) to step parttype
+11:11:04 INFO    : moving (1) to step autopartitionexecute
+11:11:04 DEBUG   : starting mpaths
+11:11:04 DEBUG   : self.driveList(): ['sda']
+11:11:04 DEBUG   : DiskSet.skippedDisks: []
+11:11:04 DEBUG   : DiskSet.skippedDisks: []
+11:11:04 DEBUG   : starting all mpaths on drives ['sda']
+11:11:04 DEBUG   : scanning for multipath on drives ['sda']
+11:11:04 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:11:04 DEBUG   : mpaths: []
+11:11:04 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:11:04 DEBUG   : adding drive sda to disk list
+11:11:04 DEBUG   : used space is 1408
+11:11:04 DEBUG   : actual space is 7936
+11:11:04 DEBUG   : used space is 6144
+11:11:04 DEBUG   : actual space is 7936
+11:11:04 DEBUG   : used space is 6528
+11:11:04 DEBUG   : actual space is 7936
+11:11:04 DEBUG   : used space is 7936
+11:11:04 DEBUG   : actual space is 7936
+11:11:04 DEBUG   : used space is 7936
+11:11:04 DEBUG   : actual space is 7936
+11:11:04 DEBUG   : used space is 7936
+11:11:04 DEBUG   : actual space is 7936
+11:11:04 INFO    : moving (1) to step partitiondone
+11:11:05 INFO    : moving (1) to step migratefilesystems
+11:11:05 INFO    : moving (1) to step enablefilesystems
+11:11:05 DEBUG   : starting mpaths
+11:11:05 DEBUG   : self.driveList(): ['sda']
+11:11:05 DEBUG   : DiskSet.skippedDisks: []
+11:11:05 DEBUG   : DiskSet.skippedDisks: []
+11:11:05 DEBUG   : starting all mpaths on drives ['sda']
+11:11:05 DEBUG   : scanning for multipath on drives ['sda']
+11:11:05 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:11:05 DEBUG   : mpaths: []
+11:11:05 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:11:05 INFO    : disk.commit() for /dev/sda
+11:11:05 DEBUG   : starting mpaths
+11:11:05 DEBUG   : self.driveList(): ['sda']
+11:11:05 DEBUG   : DiskSet.skippedDisks: []
+11:11:05 DEBUG   : DiskSet.skippedDisks: []
+11:11:05 DEBUG   : starting all mpaths on drives ['sda']
+11:11:05 DEBUG   : scanning for multipath on drives ['sda']
+11:11:05 DEBUG   : loading bdevid modules from: '/tmp/updates/bdevid/:/lib64/bdevid/:/usr/lib64/bdevid/'
+11:11:05 DEBUG   : mpaths: []
+11:11:05 DEBUG   : done starting mpaths.  Drivelist: ['sda']
+11:11:05 DEBUG   : adding drive sda to disk list
+11:11:09 INFO    : formatting swap as swap
+11:11:09 INFO    : formatting / as ext3
+11:11:09 INFO    : Format command:  ['mke2fs', '/dev/VolGroup00/LogVol00', '-t', 'ext3']
+
+11:11:10 INFO    : formatting /boot as ext3
+11:11:10 INFO    : Format command:  ['mke2fs', '/dev/sda1', '-t', 'ext3']
+
+11:11:11 INFO    : trying to mount /dev/VolGroup00/LogVol00 on /
+11:11:11 INFO    : set SELinux context for mountpoint / to False
+11:11:11 DEBUG   : mounting /dev/VolGroup00/LogVol00 on /mnt/sysimage// as ext3
+11:11:11 DEBUG   : isys.py:mount()- going to mount /dev/VolGroup00/LogVol00 on /mnt/sysimage with options defaults
+11:11:11 INFO    : set SELinux context for newly mounted filesystem root at / to False
+11:11:11 INFO    : trying to mount /dev/sda1 on /boot
+11:11:11 INFO    : set SELinux context for mountpoint /boot to False
+11:11:11 DEBUG   : mounting /dev/sda1 on /mnt/sysimage//boot as ext3
+11:11:11 DEBUG   : isys.py:mount()- going to mount /dev/sda1 on /mnt/sysimage/boot with options defaults
+11:11:11 INFO    : set SELinux context for newly mounted filesystem root at /boot to False
+11:11:11 INFO    : trying to mount sys on /sys
+11:11:11 INFO    : set SELinux context for mountpoint /sys to False
+11:11:11 DEBUG   : mounting sys on /mnt/sysimage//sys as sysfs
+11:11:11 DEBUG   : isys.py:mount()- going to mount sys on /mnt/sysimage/sys with options defaults
+11:11:11 INFO    : set SELinux context for newly mounted filesystem root at /sys to False
+11:11:11 INFO    : trying to mount proc on /proc
+11:11:11 INFO    : set SELinux context for mountpoint /proc to False
+11:11:11 DEBUG   : mounting proc on /mnt/sysimage//proc as proc
+11:11:11 DEBUG   : isys.py:mount()- going to mount proc on /mnt/sysimage/proc with options defaults
+11:11:11 INFO    : set SELinux context for newly mounted filesystem root at /proc to False
+11:11:11 INFO    : moving (1) to step bootloadersetup
+11:11:11 INFO    : moving (1) to step reposetup
+11:11:11 DEBUG   : isys.py:mount()- going to mount /dev/sr0 on /mnt/source with options defaults,ro
+11:11:17 INFO    : self.hostname = localhost.localdomain
+11:11:38 INFO    : no groups missing
+11:11:38 INFO    : moving (1) to step tasksel
+11:11:46 INFO    : moving (1) to step basepkgsel
+11:11:49 INFO    : moving (1) to step group-selection
+11:12:46 INFO    : moving (1) to step postselection
+11:12:46 INFO    : selected kernel package for kernel
+11:13:14 INFO    : moving (1) to step install
+11:13:14 INFO    : moving (1) to step setuptime
+11:13:14 ERROR   : unable to set timezone
+11:13:16 INFO    : moving (1) to step preinstallconfig
+11:13:16 DEBUG   : isys.py:mount()- going to mount /selinux on /mnt/sysimage/selinux with options defaults
+11:13:16 WARNING : no dev package, going to bind mount /dev
+11:13:16 DEBUG   : isys.py:mount()- going to mount /dev on /mnt/sysimage/dev with options defaults,bind
+11:13:16 INFO    : self.hostname = localhost.localdomain
+11:13:16 INFO    : moving (1) to step installpackages
+11:13:16 INFO    : Preparing to install packages
+11:17:39 INFO    : moving (1) to step postinstallconfig
+11:17:40 INFO    : moving (1) to step writeconfig
+11:17:40 INFO    : Writing main configuration
+11:17:40 INFO    : self.hostname = localhost.localdomain
+11:17:42 INFO    : moving (1) to step firstboot
+11:17:42 INFO    : moving (1) to step instbootloader
+11:17:42 INFO    : vg VolGroup00, size is 7968, pesize is 32768
+11:17:42 INFO    : vg VolGroup00, size is 7968, pesize is 32768
+11:17:42 INFO    : vg VolGroup00, size is 7968, pesize is 32768
+11:17:42 INFO    : vg VolGroup00, size is 7968, pesize is 32768
+11:17:43 INFO    : moving (1) to step writeksconfig
+11:17:43 INFO    : Writing autokickstart file
+11:17:49 INFO    : moving (1) to step writeregkey
+11:17:49 INFO    : moving (1) to step setfilecon
+11:17:49 INFO    : setting SELinux contexts for anaconda created files
+11:17:49 WARNING : /etc/rpm/platform doesn't exist
+11:17:49 WARNING : /etc/rpm/macros doesn't exist
+11:17:49 WARNING : /etc/lilo.conf.anaconda doesn't exist
+11:17:49 INFO    : set fc of /lib64 to False
+11:17:49 INFO    : set fc of /usr/lib64 to False
+11:17:49 WARNING : /etc/blkid.tab doesn't exist
+11:17:49 WARNING : /etc/blkid.tab.old doesn't exist
+11:17:49 INFO    : set fc of /etc/mtab to False
+11:17:49 INFO    : set fc of /etc/fstab to False
+11:17:49 INFO    : set fc of /etc/resolv.conf to False
+11:17:49 WARNING : /etc/modprobe.conf doesn't exist
+11:17:49 WARNING : /etc/modprobe.conf~ doesn't exist
+11:17:49 INFO    : set fc of /var/log/wtmp to False
+11:17:49 INFO    : set fc of /var/run/utmp to False
+11:17:49 WARNING : /etc/crypttab doesn't exist
+11:17:49 INFO    : set fc of /dev/log to False
+11:17:49 INFO    : set fc of /var/lib/rpm to False
+11:17:51 INFO    : set fc of / to False
+11:17:51 WARNING : /etc/raidtab doesn't exist
+11:17:51 WARNING : /etc/mdadm.conf doesn't exist
+11:17:51 INFO    : set fc of /etc/hosts to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network to False
+11:17:51 INFO    : set fc of /etc/udev/rules.d/70-persistent-net.rules to False
+11:17:51 INFO    : set fc of /root/install.log to False
+11:17:51 INFO    : set fc of /root/install.log.syslog to False
+11:17:51 INFO    : set fc of /etc/shadow to False
+11:17:51 INFO    : set fc of /etc/shadow- to False
+11:17:51 INFO    : set fc of /etc/gshadow to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-aliases to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-routes to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifcfg-eth0 to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-ppp to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-tunnel to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-bnep to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-ippp to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-bnep to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/network-functions to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-eth to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-ppp to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifcfg-lo to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-ippp to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-wireless to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-routes to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-post to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-isdn to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-plip to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-sl to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-ipv6 to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-isdn to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-ipsec to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/network-functions-ipv6 to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/net.hotplug to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-ipv6 to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-tunnel to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-plusb to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/init.ipv6-global to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-sit to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-eth to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-ipx to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifdown-ipsec to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-sit to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-post to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts/ifup-sl to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts to False
+11:17:51 INFO    : set fc of /var/lib/rpm/__db.001 to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Group to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Conflictname to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Packages to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Name to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Installtid to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Requirename to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Providename to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Sha1header to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Triggername to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Requireversion to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Filedigests to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Basenames to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Provideversion to False
+11:17:51 INFO    : set fc of /var/lib/rpm/__db.004 to False
+11:17:51 INFO    : set fc of /var/lib/rpm/__db.003 to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Pubkeys to False
+11:17:51 INFO    : set fc of /var/lib/rpm/__db.002 to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Sigmd5 to False
+11:17:51 INFO    : set fc of /var/lib/rpm/Dirnames to False
+11:17:51 INFO    : set fc of /var/lib/rpm to False
+11:17:51 INFO    : set fc of /etc/lvm/archive to False
+11:17:51 INFO    : set fc of /etc/lvm/backup to False
+11:17:51 INFO    : set fc of /etc/lvm/lvm.conf to False
+11:17:51 INFO    : set fc of /etc/lvm/cache to False
+11:17:51 INFO    : set fc of /etc/lvm to False
+11:17:51 INFO    : set fc of /dev/mapper/VolGroup00-LogVol01 to False
+11:17:51 INFO    : set fc of /dev/mapper/VolGroup00-LogVol00 to False
+11:17:51 INFO    : set fc of /dev/mapper/control to False
+11:17:51 INFO    : set fc of /dev/mapper to False
+11:17:51 INFO    : set fc of /root/.bash_logout to False
+11:17:51 INFO    : set fc of /root/.bashrc to False
+11:17:51 INFO    : set fc of /root/.cshrc to False
+11:17:51 INFO    : set fc of /root/anaconda-ks.cfg to False
+11:17:51 INFO    : set fc of /root/.bash_profile to False
+11:17:51 INFO    : set fc of /root/install.log to False
+11:17:51 INFO    : set fc of /root/.tcshrc to False
+11:17:51 INFO    : set fc of /root/install.log.syslog to False
+11:17:51 INFO    : set fc of /root to False
+11:17:51 INFO    : set fc of /var/log/maillog to False
+11:17:51 INFO    : set fc of /var/log/messages to False
+11:17:51 INFO    : set fc of /var/log/spooler to False
+11:17:51 INFO    : set fc of /var/log/tallylog to False
+11:17:51 INFO    : set fc of /var/log/faillog to False
+11:17:51 INFO    : set fc of /var/log/lastlog to False
+11:17:51 INFO    : set fc of /var/log/btmp to False
+11:17:51 INFO    : set fc of /var/log/dirmngr to False
+11:17:51 INFO    : set fc of /var/log/secure to False
+11:17:51 INFO    : set fc of /var/log/prelink to False
+11:17:51 INFO    : set fc of /var/log/wtmp to False
+11:17:51 INFO    : set fc of /var/log to False
+11:17:51 INFO    : set fc of /etc/modprobe.d/blacklist to False
+11:17:51 INFO    : set fc of /etc/modprobe.d/anaconda to False
+11:17:51 INFO    : set fc of /etc/modprobe.d/floppy-pnp to False
+11:17:51 INFO    : set fc of /etc/modprobe.d/modprobe.conf.dist to False
+11:17:51 INFO    : set fc of /etc/modprobe.d to False
+11:17:51 INFO    : set fc of /etc/sysconfig/console to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network-scripts to False
+11:17:51 INFO    : set fc of /etc/sysconfig/keyboard to False
+11:17:51 INFO    : set fc of /etc/sysconfig/crontab to False
+11:17:51 INFO    : set fc of /etc/sysconfig/init to False
+11:17:51 INFO    : set fc of /etc/sysconfig/i18n to False
+11:17:51 INFO    : set fc of /etc/sysconfig/kernel to False
+11:17:51 INFO    : set fc of /etc/sysconfig/clock to False
+11:17:51 INFO    : set fc of /etc/sysconfig/selinux to False
+11:17:51 INFO    : set fc of /etc/sysconfig/netconsole to False
+11:17:51 INFO    : set fc of /etc/sysconfig/authconfig to False
+11:17:51 INFO    : set fc of /etc/sysconfig/readonly-root to False
+11:17:51 INFO    : set fc of /etc/sysconfig/cbq to False
+11:17:51 INFO    : set fc of /etc/sysconfig/udev to False
+11:17:51 INFO    : set fc of /etc/sysconfig/system-config-securitylevel to False
+11:17:51 INFO    : set fc of /etc/sysconfig/modules to False
+11:17:51 INFO    : set fc of /etc/sysconfig/ip6tables to False
+11:17:51 INFO    : set fc of /etc/sysconfig/system-config-firewall to False
+11:17:51 INFO    : set fc of /etc/sysconfig/rsyslog to False
+11:17:51 INFO    : set fc of /etc/sysconfig/grub to False
+11:17:51 INFO    : set fc of /etc/sysconfig/prelink to False
+11:17:51 INFO    : set fc of /etc/sysconfig/iptables to False
+11:17:51 INFO    : set fc of /etc/sysconfig/ip6tables-config to False
+11:17:51 INFO    : set fc of /etc/sysconfig/iptables-config to False
+11:17:51 INFO    : set fc of /etc/sysconfig/network to False
+11:17:51 INFO    : set fc of /etc/sysconfig/networking to False
+11:17:51 INFO    : set fc of /etc/sysconfig to False
+11:17:51 INFO    : set fc of /dev/VolGroup00/LogVol01 to False
+11:17:51 INFO    : set fc of /dev/VolGroup00/LogVol00 to False
+11:17:51 INFO    : set fc of /dev/VolGroup00 to False
+11:17:51 INFO    : moving (1) to step copylogs
+11:17:51 INFO    : Copying anaconda logs

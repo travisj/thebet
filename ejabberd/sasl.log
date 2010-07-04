@@ -1,0 +1,275 @@
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.46.0>},
+                       {name,alarm_handler},
+                       {mfa,{alarm_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.47.0>},
+                       {name,overload},
+                       {mfa,{overload,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.45.0>},
+                       {name,sasl_safe_sup},
+                       {mfa,
+                           {supervisor,start_link,
+                               [{local,sasl_safe_sup},sasl,safe]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.48.0>},
+                       {name,release_handler},
+                       {mfa,{release_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+         application: sasl
+          started_at: ejabberd@talk
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.51.0>},
+                       {name,dets_sup},
+                       {mfa,{dets_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,1000},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.52.0>},
+                       {name,dets},
+                       {mfa,{dets_server,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,mnesia_sup}
+             started: [{pid,<0.60.0>},
+                       {name,mnesia_event},
+                       {mfa,{mnesia_sup,start_event,[]}},
+                       {restart_type,permanent},
+                       {shutdown,30000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.62.0>},
+                       {name,mnesia_monitor},
+                       {mfa,{mnesia_monitor,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,3000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.63.0>},
+                       {name,mnesia_subscr},
+                       {mfa,{mnesia_subscr,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,3000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.64.0>},
+                       {name,mnesia_locker},
+                       {mfa,{mnesia_locker,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,3000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:51 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.65.0>},
+                       {name,mnesia_recover},
+                       {mfa,{mnesia_recover,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,180000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.70.0>},
+                       {name,disk_log_sup},
+                       {mfa,{disk_log_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,1000},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.71.0>},
+                       {name,disk_log_server},
+                       {mfa,{disk_log_server,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,inet_gethost_native_sup}
+             started: [{pid,<0.79.0>},{mfa,{inet_gethost_native,init,[[]]}}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.78.0>},
+                       {name,inet_gethost_native_sup},
+                       {mfa,{inet_gethost_native,start_link,[]}},
+                       {restart_type,temporary},
+                       {shutdown,1000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,kernel_safe_sup}
+             started: [{pid,<0.94.0>},
+                       {name,timer_server},
+                       {mfa,{timer,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,1000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.66.0>},
+                       {name,mnesia_tm},
+                       {mfa,{mnesia_tm,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,30000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.95.0>},
+                       {name,mnesia_checkpoint_sup},
+                       {mfa,{mnesia_checkpoint_sup,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.96.0>},
+                       {name,mnesia_snmp_sup},
+                       {mfa,{mnesia_snmp_sup,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.97.0>},
+                       {name,mnesia_controller},
+                       {mfa,{mnesia_controller,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,3000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,mnesia_kernel_sup}
+             started: [{pid,<0.98.0>},
+                       {name,mnesia_late_loader},
+                       {mfa,{mnesia_late_loader,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,3000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,mnesia_sup}
+             started: [{pid,<0.61.0>},
+                       {name,mnesia_kernel_sup},
+                       {mfa,{mnesia_kernel_sup,start,[]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+         application: mnesia
+          started_at: ejabberd@talk
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,crypto_sup}
+             started: [{pid,<0.105.0>},
+                       {name,crypto_server},
+                       {mfa,{crypto_server,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+         application: crypto
+          started_at: ejabberd@talk
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,ssl_sup}
+             started: [{pid,<0.110.0>},
+                       {name,ssl_broker_sup},
+                       {mfa,{ssl_broker_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,ssl_sup}
+             started: [{pid,<0.111.0>},
+                       {name,ssl_manager},
+                       {mfa,{ssl_manager,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,4000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,ssl_sup}
+             started: [{pid,<0.112.0>},
+                       {name,ssl_connection},
+                       {mfa,{ssl_connection_sup,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,4000},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+         application: ssl
+          started_at: ejabberd@talk
+
+=PROGRESS REPORT==== 9-Aug-2009::10:57:52 ===
+          supervisor: {local,stringprep_sup}
+             started: [{pid,<0.114.0>},
+                       {name,stringprep},
+                       {mfa,{stringprep,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,brutal_kill},
+                       {child_type,worker}]
+
+=CRASH REPORT==== 9-Aug-2009::10:57:53 ===
+  crasher:
+    pid: <0.34.0>
+    registered_name: []
+    exception exit: {bad_return,{{ejabberd_app,start,[normal,[]]},
+                                 {'EXIT',"Error reading Mnesia database"}}}
+      in function  application_master:init/4
+    initial call: application_master:init/4
+    ancestors: [<0.33.0>]
+    messages: [{'EXIT',<0.35.0>,normal}]
+    links: [<0.33.0>,<0.5.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 23
+    reductions: 150
+  neighbours:

@@ -1,0 +1,18 @@
+
+=ERROR REPORT==== 2009-08-09 10:57:53 ===
+E(<0.35.0>:ejabberd_config:282) : Error reading Mnesia database spool files:
+The Mnesia database couldn't read the spool file for the table 'config'.
+ejabberd needs read and write access in the directory:
+   /var/lib/ejabberd/spool
+Maybe the problem is a change in the computer hostname,
+or a change in the Erlang node name, which is currently:
+   ejabberd@talk
+Check the ejabberd guide for details about changing the
+computer hostname or Erlang node name.
+
+
+=INFO REPORT==== 2009-08-09 10:57:53 ===
+    application: ejabberd
+    exited: {bad_return,{{ejabberd_app,start,[normal,[]]},
+                         {'EXIT',"Error reading Mnesia database"}}}
+    type: temporary

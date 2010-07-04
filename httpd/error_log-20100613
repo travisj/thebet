@@ -1,0 +1,11 @@
+[Sun Jun 06 04:02:01 2010] [notice] Digest: generating secret for digest authentication ...
+[Sun Jun 06 04:02:01 2010] [notice] Digest: done
+[Sun Jun 06 04:02:01 2010] [notice] Apache/2.2.11 (Unix) DAV/2 PHP/5.2.6 SVN/1.5.4 configured -- resuming normal operations
+[Wed Jun 09 23:48:31 2010] [notice] caught SIGTERM, shutting down
+[Wed Jun 09 23:49:23 2010] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jun 09 23:49:23 2010] [notice] Digest: generating secret for digest authentication ...
+[Wed Jun 09 23:49:23 2010] [notice] Digest: done
+[Wed Jun 09 23:49:24 2010] [notice] Apache/2.2.11 (Unix) DAV/2 PHP/5.2.6 SVN/1.5.4 configured -- resuming normal operations
+[Sun Jun 13 04:02:02 2010] [notice] SIGHUP received.  Attempting to restart
+httpd: apr_sockaddr_info_get() failed for wilco
+httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
