@@ -1,21 +1,19 @@
 ---
 layout: post
 johnson: 6
-smith: 4
+smith: 5
+stl: 1
+wsh: 1
+laa: 1
 tor: 1
+kc: 1
+atl: 1
+nyy: 0
+lad: 0
+pit: 0
+sd: 1
+phi: 1
 cle: 1
 bos: 1
-tam: 0
-pit: 0
 cin: 1
-stl: 1
-atl: 1
-bal: 0
-kan: 1
-nyy: 0
-laa: 0
-sdg: 1
-was: 1
-phi: 1
-lad: 0
 ---

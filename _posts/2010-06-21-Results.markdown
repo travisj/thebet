@@ -1,21 +1,21 @@
 ---
 layout: post
 johnson: 316
-smith: 314
+smith: 315
+stl: 38
+wsh: 39
+laa: 39
 tor: 32
+kc: 42
+bal: 50
+atl: 42
+tb: 42
+nyy: 43
+lad: 38
+pit: 44
+sd: 29
+phi: 35
 cle: 42
 bos: 43
-tb: 42
-pit: 44
 cin: 33
-stl: 38
-atl: 42
-bal: 50
-kc: 41
-nyy: 43
-laa: 39
-sd: 29
-wsh: 39
-phi: 35
-lad: 38
 ---

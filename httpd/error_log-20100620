@@ -1,8 +1,0 @@
-[Sun Jun 13 04:02:02 2010] [notice] Digest: generating secret for digest authentication ...
-[Sun Jun 13 04:02:02 2010] [notice] Digest: done
-[Sun Jun 13 04:02:02 2010] [notice] Apache/2.2.11 (Unix) DAV/2 PHP/5.2.6 SVN/1.5.4 configured -- resuming normal operations
-[Tue Jun 15 13:41:31 2010] [error] [client 193.87.100.18] Invalid URI in request GET HTTP/1.1 HTTP/1.1
-[Tue Jun 15 13:41:37 2010] [error] [client 193.87.100.18] Invalid URI in request GET  HTTP/1.1
-[Sun Jun 20 04:02:02 2010] [notice] SIGHUP received.  Attempting to restart
-httpd: apr_sockaddr_info_get() failed for wilco
-httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
